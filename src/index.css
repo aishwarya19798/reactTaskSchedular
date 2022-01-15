@@ -1,0 +1,48 @@
+.App{
+  color:lightcoral;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border:2px solid cadetblue;
+  border-radius: 5px;
+  padding:10px 20px;
+  font-size: small;
+}
+
+.taskHeading, .task, .addTask > div {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: transparent;
+  color: cadetblue;
+  border:1px solid lightsalmon;
+  border-radius: 5px;
+  padding:5px 20px;
+  box-shadow: 2px 2px 2px gainsboro;
+  font-size: 15px;
+}
+
+.task{
+  background-color: rgb(236, 203, 159);
+  padding:5px 10px;
+  margin:5px 0px;
+  color:darkslategrey;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.task h4,p{
+  margin:0px;
+}
+
+.cancel{
+  color:brown;
+  cursor: pointer;
+  border:0;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.addTask div{
+  margin:10px;
+}
